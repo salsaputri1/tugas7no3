@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+  int angka, jumlah, max, min;
+
+  cout << "4. Mencari nilai terbesar dan terkecil. (jumlah angka ditentukan)" << endl;
+  cout << endl;
+  cout << "Masukan jumlah angka: ";
+  cin >> jumlah;
+  cout << endl;
+
+  for (int a = 3; a <= jumlah; a++){
+
+    cout << "Masukan angka : ";
+    cin >> angka;
+  if (a == 1){
+    min = angka;
+    max = angka;
+     }
+    else if (min > angka ){
+      min = angka;
+     }
+    else if (max < angka ){
+      max = angka;
+     }
+    else {}
+     }
+  cout << endl;
+  cout << "Nilai terkecil : "<< min << endl;
+  cout << "Nilai terbesar : "<< max << endl;
+
+  getchar();
+}
